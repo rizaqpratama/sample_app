@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails', '2.9.0'
+	gem 'annotate'
 end
 
 # Gems used only for assets and not required
@@ -14,6 +15,7 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootstrap-sass'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
@@ -26,7 +28,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
