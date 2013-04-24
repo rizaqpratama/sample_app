@@ -1,6 +1,8 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  get "apaya/coba"
 
+  #get "users/new"
+  resources :users
   # get "static_pages/home"
   root to: 'static_pages#home'
   match '/help', to: 'static_pages#help'
