@@ -14,6 +14,7 @@ end
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'activerecord-postgresql-adapter'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
